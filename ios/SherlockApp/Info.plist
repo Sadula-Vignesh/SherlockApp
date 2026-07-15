@@ -28,14 +28,19 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>Sherlock uses your location to build the walking route to your destination.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Sherlock uses the microphone to hear the wake word and your spoken destination.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Sherlock converts your spoken destination to text to find a route.</string>
+	<key>RCTNewArchEnabled</key>
+	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
